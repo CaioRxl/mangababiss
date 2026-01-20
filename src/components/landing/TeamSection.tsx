@@ -7,21 +7,21 @@ interface TeamMember {
 }
 
 const developers: TeamMember[] = [
-  { name: "Caio Rosberg Xavier Lima", role: "Desenvolvedor", image: "/equipe/caio.jpeg" },
-  { name: "Gabryel de Jesus Santos Cardoso", role: "Desenvolvedor" },
-  { name: "Guilherme Viana Bagio", role: "Desenvolvedor" },
-  { name: "Isaque Marley Vieira Bispo", role: "Desenvolvedor" },
-  { name: "Julio Geovani Oliveira Guimarães", role: "Desenvolvedor" },
-  { name: "Levy dos Santos Oliveira", role: "Desenvolvedor" },
-  { name: "Nyckoll Hayane Santos", role: "Desenvolvedora" },
-  { name: "Virna Santos Oliveira", role: "Desenvolvedora" },
+  { name: "Caio Rosberg Xavier Lima", role: "Desenvolvedor", image: "equipe/caio.jpeg" },
+  { name: "Gabryel de Jesus Santos Cardoso", role: "Desenvolvedor", image: "equipe/gabryel.png" },
+  { name: "Guilherme Viana Bagio", role: "Desenvolvedor", image: "equipe/guilherme.jpeg" },
+  { name: "Isaque Marley Vieira Bispo", role: "Desenvolvedor", image: "equipe/isaque.jpeg" },
+  { name: "Julio Geovani Oliveira Guimarães", role: "Desenvolvedor", image: "equipe/julio.jpeg" },
+  { name: "Levy dos Santos Oliveira", role: "Desenvolvedor", image: "equipe/levy.jpeg" },
+  { name: "Nyckoll Hayane Santos", role: "Desenvolvedora", image: "equipe/nyckoll.jpeg" },
+  { name: "Virna Santos Oliveira", role: "Desenvolvedora", image: "equipe/virna.png" },
 ];
 
-const productOwners: TeamMember[] = [
-  { name: "Debora Maria Coelho Nascimento", role: "Product Owner" },
-  { name: "Edward David Moreno Ordonez", role: "Product Owner" },
-  { name: "Michel dos Santos Soares", role: "Product Owner" },
-  { name: "Rogerio Patricio Chagas do Nascimento", role: "Product Owner" },
+const monitoriaTecnica: TeamMember[] = [
+  { name: "Debora Maria Coelho Nascimento", role: "Monitora Técnica", image: "equipe/debora.png" },
+  { name: "Edward David Moreno Ordonez", role: "Monitor Técnico", image: "equipe/edward.png" },
+  { name: "Michel dos Santos Soares", role: "Monitor Técnico", image: "equipe/michel.png" },
+  { name: "Rogerio Patricio Chagas do Nascimento", role: "Monitor Técnico", image: "equipe/rogerio.png" },
 ];
 
 const TeamMemberCard = ({ member }: { member: TeamMember }) => (
@@ -76,10 +76,10 @@ const TeamSection = () => {
 
         <div>
           <h3 className="text-2xl font-semibold text-foreground text-center mb-8">
-            Product Owners & Consultoria
+            Monitoria Técnica
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-            {productOwners.map((member) => (
+            {monitoriaTecnica.map((member) => (
               <TeamMemberCard key={member.name} member={member} />
             ))}
           </div>
