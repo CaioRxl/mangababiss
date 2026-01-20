@@ -99,7 +99,7 @@ const FooterSection = () => {
                 {/* Logo UFS */}
                 <div className="h-16 px-4 bg-white rounded-xl flex items-center justify-center">
                   <img 
-                    src="/logo-ufs.png" 
+                    src="logo-ufs.png" 
                     alt="Logo UFS" 
                     className="h-12 w-auto object-contain"
                   />
@@ -108,7 +108,7 @@ const FooterSection = () => {
                 {/* Logo DCOMP */}
                 <div className="h-16 px-4 bg-white rounded-xl flex items-center justify-center">
                   <img 
-                    src="/logo-dcomp.png" 
+                    src="logo-dcomp.png" 
                     alt="Logo DCOMP" 
                     className="h-12 w-auto object-contain"
                   />

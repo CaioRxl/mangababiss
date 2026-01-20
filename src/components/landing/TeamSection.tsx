@@ -7,7 +7,7 @@ interface TeamMember {
 }
 
 const developers: TeamMember[] = [
-  { name: "Caio Rosberg Xavier Lima", role: "Desenvolvedor", image: "/equipe/caio.jpeg" },
+  { name: "Caio Rosberg Xavier Lima", role: "Desenvolvedor", image: "equipe/caio.jpeg" },
   { name: "Gabryel de Jesus Santos Cardoso", role: "Desenvolvedor" },
   { name: "Guilherme Viana Bagio", role: "Desenvolvedor" },
   { name: "Isaque Marley Vieira Bispo", role: "Desenvolvedor" },
