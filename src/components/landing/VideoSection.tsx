@@ -9,7 +9,7 @@ const VideoSection = () => {
             Conheça o <span className="text-primary">Mangababiss</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Assista ao nosso vídeo e descubra como podemos transformar sua empresa
+            Assista ao nosso vídeo e descubra como podemos transformar a sua empresa
           </p>
           <div className="w-24 h-1 bg-primary mx-auto rounded-full mt-4" />
         </div>

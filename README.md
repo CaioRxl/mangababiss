@@ -12,5 +12,5 @@ O projeto foi construído pelos seguintes desenvolvedores:
 * **Isaque Marley Vieira Bispo**
 * **Julio Geovani Oliveira Guimarães**
 * **Levy dos Santos Oliveira**
-* **Nyckoll Hayane Santos**
+* **Nyckoll Hayanne Santos**
 * **Virna Santos Oliveira**
