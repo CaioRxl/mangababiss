@@ -22,9 +22,10 @@ const HeroSection = () => {
 
           {/* Content */}
           <div className="flex-1 text-center lg:text-left space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight animate-fade-in-delay-1">
-              Transformando a cultura e o{" "}
-              <span className="text-primary">engajamento</span> da sua empresa
+            {/* Alteração aqui: Tamanhos de fonte reduzidos (3xl, 4xl, 5xl) */}
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight animate-fade-in-delay-1">
+              Transformando engajamento em resultados tangíveis e cultura em valor{" "}
+              <span className="text-primary">real</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 animate-fade-in-delay-2">
               A plataforma completa de endomarketing que conecta, engaja e
