@@ -1,24 +1,18 @@
-import { useState } from "react";
-import logo from "@/assets/mangababiss-logo.png";
-
 const FooterSection = () => {
   return (
     <footer id="contato" className="py-24 px-4 bg-foreground text-background">
       <div className="container max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16">
-          {/* Lado Esquerdo - Logo e Descrição */}
+          {/* Lado Esquerdo - Nome e Descrição */}
           <div className="space-y-6">
             
-            {/* Logo do Mangababiss: Sem quadro branco e sem filtros de cor */}
-            <img
-              src={logo} 
-              alt="Logo Mangababiss"
-              className="h-16 w-auto object-contain"
-            />
+            {/* Nome Mangababiss em Texto Branco */}
+            <h3 className="text-3xl font-bold text-background tracking-tight">
+              Mangababiss
+            </h3>
 
-            <p className="text-background/70 leading-relaxed">
-              Transformando a cultura e o engajamento da sua empresa através
-              de soluções inovadoras de endomarketing.
+            <p className="text-background/70 leading-relaxed max-w-sm">
+              Transformando engajamento em resultados tangíveis e cultura em valor real.
             </p>
           </div>
 

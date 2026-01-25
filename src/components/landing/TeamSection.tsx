@@ -12,7 +12,7 @@ const developers: TeamMember[] = [
   { name: "Guilherme Viana Bagio", role: "Desenvolvedor", image: "equipe/guilherme.jpeg" },
   { name: "Isaque Marley Vieira Bispo", role: "Desenvolvedor", image: "equipe/isaque.jpeg" },
   { name: "Julio Geovani Oliveira Guimarães", role: "Desenvolvedor", image: "equipe/julio.jpeg" },
-  { name: "Levy dos Santos Oliveira", role: "Desenvolvedor", image: "equipe/levy.jpeg" },
+  { name: "Levy dos Santos Silva", role: "Desenvolvedor", image: "equipe/levy.jpeg" },
   { name: "Nyckoll Hayanne Santos", role: "Desenvolvedora", image: "equipe/nyckoll.jpeg" },
   { name: "Virna Santos Oliveira", role: "Desenvolvedora", image: "equipe/virna.png" },
 ];
